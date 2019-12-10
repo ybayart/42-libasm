@@ -22,6 +22,7 @@ ssize_t	ft_write(int fd, const void *buf, size_t n);
 ssize_t	ft_read(int fd, const void *buf, size_t n);
 char	*ft_strdup(char *str);
 char	ft_bzero(void *s, size_t n);
+int		ft_atoi_base(char *str, char *base);
 t_list	*ft_list_create_elem(void *data);
 void	*ft_list_push_front(t_list **lst, void *data);
 int		ft_list_size(t_list *begin_list);
