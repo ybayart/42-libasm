@@ -140,5 +140,4 @@ int			main(void)
 		tmp = tmp->next;
 	}
 	printf("\n");
-	while (1);
 }
