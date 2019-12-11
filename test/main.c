@@ -74,7 +74,10 @@ int			main(void)
 	free(str);
 
 	printf("\nft_atoi_base:\n");
-	printf(" - %d\n", ft_atoi_base("42", "012345678"));
+	printf(" - %d\n", ft_atoi_base("         \n   --42", "0123456789"));
+	printf(" - %d\n", ft_atoi_base("         \n   111", "01"));
+	printf(" - %d\n", ft_atoi_base("         \n   ---42", "0123456789"));
+	printf(" - %d\n", ft_atoi_base("         \n   abc", "fedcba"));
 
 	printf("\nft_list_push_front:\n");
 	t_list	*lst;
